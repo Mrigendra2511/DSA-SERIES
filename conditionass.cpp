@@ -5,85 +5,85 @@ using namespace std;
 int main()
 {
     // 1. Take 2 integers input and print the greatest of them.
-    // int a,b;
-    // cout<<"enter a and b";
-    // cin>>a>>b;
-    // if(a>b)
-    // cout<<a<<" a is greater ";
-    // else cout<<b<<" b is greater";
+    int a,b;
+    cout<<"enter a and b";
+    cin>>a>>b;
+    if(a>b)
+    cout<<a<<" a is greater ";
+    else cout<<b<<" b is greater";
 
     //     2. Given the radius of the circle predict whether numerically area of this circle is
     //     larger than the circumference or not.
 
-    // int radius;
-    // cout<<" enter the radius";
-    // cin>>radius;
-    // float area=radius*radius;
-    // cout<<area<<endl;;
-    // float circumference=2*3.14*radius;
-    // cout<< circumference<<endl;;
-    // if(area >circumference)
-    // cout<<" area is greater";
-    // else
-    // cout<<" circumference if greater";
+    int radius;
+    cout<<" enter the radius";
+    cin>>radius;
+    float area=radius*radius;
+    cout<<area<<endl;;
+    float circumference=2*3.14*radius;
+    cout<< circumference<<endl;;
+    if(area >circumference)
+    cout<<" area is greater";
+    else
+    cout<<" circumference if greater";
 
     //     3. Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not. (Considering leap year occurs after every 4 years).
-    // int year;
-    // cout<<" enter the year";
-    // cin>>year;
-    // if( year%4==0 || year%100!=0 && year%400==0){
-    //     cout<<year<<" it is a leap year";
-    // }else
-    // cout<<year<<" not a leap year";
+    int year;
+    cout<<" enter the year";
+    cin>>year;
+    if( year%4==0 || year%100!=0 && year%400==0){
+        cout<<year<<" it is a leap year";
+    }else
+    cout<<year<<" not a leap year";
 
     // 4. Given the length and breadth of a rectangle, write a program to find whether
     //      numerically the area of the rectangle is greater than its perimeter.
 
-    // int l,b;
-    // cout<<" enter length and breadth";
-    // cin>>l>>b;
-    // float area=l*b;
-    // cout<<area<<endl;
-    // float perimeter=2*(l+b);
-    // cout<<perimeter<<endl;
-    // if(area> perimeter){
-    //     cout<< area<<" is greater";
-    // }
-    // else{
-    //     cout<<perimeter<<" is greatter";
-    // }
+    int l,b;
+    cout<<" enter length and breadth";
+    cin>>l>>b;
+    float area=l*b;
+    cout<<area<<endl;
+    float perimeter=2*(l+b);
+    cout<<perimeter<<endl;
+    if(area> perimeter){
+        cout<< area<<" is greater";
+    }
+    else{
+        cout<<perimeter<<" is greatter";
+    }
     //     5. Write a program to input sides of a triangle and check whether a triangle is
     //     equilateral, scalene or isosceles triangle.
 
-    // int l,b,h;
-    // cout<<" enter the sides";
-    // cin>>l>>b>>h;
-    // if(l==b==h){
-    //     cout<<" it is equilatral triangle";
-    // }
-    // else if(l==b||b==h||l==h){
-    //     cout<<" it is isoceles triangle";
-    // }
-    // else{
-    //     cout<<" it is scalen triangle";
-    // }
+    int l,b,h;
+    cout<<" enter the sides";
+    cin>>l>>b>>h;
+    if(l==b==h){
+        cout<<" it is equilatral triangle";
+    }
+    else if(l==b||b==h||l==h){
+        cout<<" it is isoceles triangle";
+    }
+    else{
+        cout<<" it is scalen triangle";
+    }
 
     //     6. If the marks of A, B and C are input through the keyboard, write a program to
     //     determine the student scoring least marks.
-    // int a,b,c;
-    // cout<<" enter the marks of these students";
-    // cin>>a>>b>>c;
-    // if(a>b&&a>c){
-    //    cout<<" a got the highest marks";
-    // }
-    // else if(b>a&&b>c){
-    //     cout<<" b got the highest marks";
-    // }
-    // else if(c>a&&c>b){
-    //     cout<<" c got the highest marks";
-    // }else{
-    //         cout<< "they got same marks";
-    //     }
+    int a,b,c;
+    cout<<" enter the marks of these students";
+    cin>>a>>b>>c;
+    if(a>b&&a>c){
+       cout<<" a got the highest marks";
+    }
+    else if(b>a&&b>c){
+        cout<<" b got the highest marks";
+    }
+    else if(c>a&&c>b){
+        cout<<" c got the highest marks";
+    }else{
+            cout<< "they got same marks";
+        }
 
     //     7. Given a point (x, y), write a program to find out if it lies on the x-axis, y-axis or at
     //     the origin, viz. (0, 0).
